@@ -1,0 +1,61 @@
+{
+    "_T": "Semester", 
+    "courses": [
+        {
+            "_T": "Course", 
+            "code": "4203C6MO", 
+            "groups": [
+                {
+                    "_T": "Group", 
+                    "number": 1, 
+                    "students": [
+                        {
+                            "_T": "Student", 
+                            "emails": [], 
+                            "linux_id": null, 
+                            "moodlename": "NomFamille Prénom", 
+                            "name": null, 
+                            "phone": null, 
+                            "program": null, 
+                            "registration_id": null, 
+                            "repos": [
+                                {
+                                    "_T": "Repo", 
+                                    "projects": [], 
+                                    "url": "https://github.com/nomfamille/3c6_NOM_FAMILLE"
+                                }
+                            ], 
+                            "surname": null
+                        }
+                    ]
+                }, 
+                {
+                    "_T": "Group", 
+                    "number": 2, 
+                    "students": [
+                        {
+                            "_T": "Student", 
+                            "emails": [], 
+                            "linux_id": null, 
+                            "moodlename": "Nom Prénom En Morceaux", 
+                            "name": null, 
+                            "phone": null, 
+                            "program": null, 
+                            "registration_id": null, 
+                            "repos": [
+                                {
+                                    "_T": "Repo", 
+                                    "projects": [], 
+                                    "url": "https://github.com/nom/3c6_NOM"
+                                }
+                            ], 
+                            "surname": null
+                        }
+                    ]
+                }
+            ], 
+            "title": null
+        }
+    ], 
+    "date": "A2020"
+}

@@ -1,0 +1,101 @@
+{
+    "_T": "Semester", 
+    "courses": [
+        {
+            "_T": "Course", 
+            "code": "4203C6MO", 
+            "groups": [
+                {
+                    "_T": "Group", 
+                    "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/01", 
+                    "number": 1, 
+                    "students": [
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnom", 
+                            "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/01/PrenomDeux_Nom_Famille", 
+                            "moodlename": "Nom Famille Prénom-Deux", 
+                            "name": "Prénom-Deux", 
+                            "phone": "514 555-5555", 
+                            "program": "420.B1", 
+                            "registration_id": "201234567", 
+                            "repos": [], 
+                            "surname": "Nom Famille"
+                        }, 
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnoms", 
+                            "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/01/Prenom_NomFamille", 
+                            "moodlename": "NomFamille Prénom", 
+                            "name": "Prénom", 
+                            "phone": "514 555-5556", 
+                            "program": "420.B1", 
+                            "registration_id": "207654321", 
+                            "repos": [
+                                {
+                                    "_T": "Repo", 
+                                    "dirpath": null, 
+                                    "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/01/Prenom_NomFamille/3c6_NOM_FAMILLE", 
+                                    "projects": [], 
+                                    "url": "https://github.com/nomfamille/3c6_NOM_FAMILLE"
+                                }
+                            ], 
+                            "surname": "NomFamille"
+                        }
+                    ]
+                }, 
+                {
+                    "_T": "Group", 
+                    "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/02", 
+                    "number": 2, 
+                    "students": [
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnomv", 
+                            "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/02/PrenomCompose_Nom_Famille_Tres_Long", 
+                            "moodlename": "Nom Famille Très Long Prénom-Composé", 
+                            "name": "Prénom-Composé", 
+                            "phone": "514 555-5556", 
+                            "program": "420.B1", 
+                            "registration_id": "201111111", 
+                            "repos": [], 
+                            "surname": "Nom Famille Très Long"
+                        }, 
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnomvb", 
+                            "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/02/Prenom_En_Morceaux_Nom", 
+                            "moodlename": "Nom Prénom En Morceaux", 
+                            "name": "Prénom En Morceaux", 
+                            "phone": "514 555-5557", 
+                            "program": "420.B1", 
+                            "registration_id": "202222222", 
+                            "repos": [
+                                {
+                                    "_T": "Repo", 
+                                    "dirpath": null, 
+                                    "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO/02/Prenom_En_Morceaux_Nom/3c6_NOM", 
+                                    "projects": [], 
+                                    "url": "https://github.com/nom/3c6_NOM"
+                                }
+                            ], 
+                            "surname": "Nom"
+                        }
+                    ]
+                }
+            ], 
+            "localpath": "/home/mbergeron/montmorency/git-momo/A2020/4203C6MO", 
+            "title": "Structures de données"
+        }
+    ], 
+    "date": "A2020", 
+    "localpath": "/home/mbergeron/montmorency/git-momo/A2020"
+}

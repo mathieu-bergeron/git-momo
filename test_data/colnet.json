@@ -1,0 +1,77 @@
+{
+    "_T": "Semester", 
+    "courses": [
+        {
+            "_T": "Course", 
+            "code": "4203C6MO", 
+            "groups": [
+                {
+                    "_T": "Group", 
+                    "number": 1, 
+                    "students": [
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnom", 
+                            "moodlename": "Nom Famille Prénom-Deux", 
+                            "name": "Prénom-Deux", 
+                            "phone": "514 555-5555", 
+                            "program": "420.B1", 
+                            "registration_id": "201234567", 
+                            "repos": [], 
+                            "surname": "Nom Famille"
+                        }, 
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnomq", 
+                            "moodlename": "NomFamille Prénom", 
+                            "name": "Prénom", 
+                            "phone": "514 555-5556", 
+                            "program": "420.B1", 
+                            "registration_id": "207654321", 
+                            "repos": [], 
+                            "surname": "NomFamille"
+                        }
+                    ]
+                }, 
+                {
+                    "_T": "Group", 
+                    "number": 2, 
+                    "students": [
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnomj", 
+                            "moodlename": "Nom Famille Très Long Prénom-Composé", 
+                            "name": "Prénom-Composé", 
+                            "phone": "514 555-5556", 
+                            "program": "420.B1", 
+                            "registration_id": "201111111", 
+                            "repos": [], 
+                            "surname": "Nom Famille Très Long"
+                        }, 
+                        {
+                            "_T": "Student", 
+                            "comment": "3", 
+                            "emails": [], 
+                            "linux_id": "prnomr", 
+                            "moodlename": "Nom Prénom En Morceaux", 
+                            "name": "Prénom En Morceaux", 
+                            "phone": "514 555-5557", 
+                            "program": "420.B1", 
+                            "registration_id": "202222222", 
+                            "repos": [], 
+                            "surname": "Nom"
+                        }
+                    ]
+                }
+            ], 
+            "title": "Structures de données"
+        }
+    ], 
+    "date": "A2020"
+}

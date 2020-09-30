@@ -1,0 +1,3 @@
+[submodule "watable"]
+	path = watable
+	url = https://github.com/wootapa/watable.git
