@@ -42,13 +42,13 @@ parser.add_argument('-p', metavar='PATTERN', type=str, help='Regex pattern used 
 parser.add_argument('-e', metavar='EXCLUDE', default=None, type=str, help='Regex pattern used to exclude files')
 parser.add_argument('-j', metavar='JAVA', default='java', type=str, help='Path to java executable -- defaults to java')
 parser.add_argument('-jplag', metavar='JPLAG', type=str, help='Path to jplag .jar file')
-parser.add_argument('-jplagargs', metavar='JPLAGARGS', type=str, help='Extra arguments to jplag')
 parser.add_argument('-b', metavar='BROWSER', type=str, help='Path to browser executable')
 
-args = parser.parse_args()
+args, unkonwn_args = parser.parse_known_args()
 
 if args.i is None or args.p is None:
     parser.print_usage()
+    print("\n                       NOTE: any extra argument is passed to jplag")
     exit(0)
 
 ENCODING = 'utf-8'
@@ -62,10 +62,7 @@ FILES_DIR = 'files'
 RESULT_DIR = 'result'
 JAVAPATH = args.j
 JPLAGPATH = args.jplag
-if args.jplagargs is not None:
-    JPLAGARGS = args.jplagargs
-else:
-    JPLAGARGS = " "
+JPLAGARGS = " ".join(unkonwn_args)
 EXCLUDE_PATTERN = args.e
 BROWSER_PATH = args.b
 INDEX_NAME='index.html'
@@ -132,7 +129,7 @@ if __name__ == '__main__':
 
         # launch jplag
         jplag_cmd = "%s -jar %s -l java19 %s %s -r %s >/dev/null 2>/dev/null" % (JAVAPATH, JPLAGPATH, JPLAGARGS, filespath, resultpath)
-        #print("launching jplag: %s" % jplag_cmd)
+        print("launching jplag: %s" % jplag_cmd)
         os.system(jplag_cmd)
 
         print("jplag results written to %s" % indexpath)
