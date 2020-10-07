@@ -117,7 +117,9 @@ class Student(JsonIO, Mergeable, LocalPath, RepoFinder, ProjectFinder, CommitFin
         return self.repos
 
     def find_repos(self, matcher):
-        if matcher.if_very_strictly_matches(self.fullname()) or matcher.if_very_strictly_matches(str(self.registration_id)):
+        if matcher.if_very_strictly_matches(self.name) \
+           or matcher.if_very_strictly_matches(self.surname) \
+           or matcher.if_very_strictly_matches(str(self.registration_id)):
             for repo in self.repos:
                 yield repo
 
